@@ -116,3 +116,10 @@ EPICS_BASE=$(HOME)/EPICS/epics-base
 -include $(TOP)/../RELEASE.$(EPICS_HOST_ARCH).local
 -include $(TOP)/configure/RELEASE.local
 ```
+Запуск:
+
+``` bash
+user@debian:~$ cd ~/EPICS/support/modbus/iocBoot/iocTest
+user@debian:~/EPICS/support/modbus/iocBoot/iocTest$ ../../bin/linux-x86_64/modbusApp Koyo1.cmd
+```
+
